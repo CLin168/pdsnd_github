@@ -233,12 +233,14 @@ def user_stats(df):
     # not all data sets have this column
     if 'Birth Year' in list(df.columns):
         print("\n")
-        print("Earliest year of birth is %i." % int(df['Birth Year'].min()))
-        print("Most recent year of birth is %i." % int(df['Birth Year'].max()))
-        print("Most common year of birth is %i." %
+        print("Earliest traveler year of birth is %i." %
+              int(df['Birth Year'].min()))
+        print("Most recent traveler year of birth is %i." %
+              int(df['Birth Year'].max()))
+        print("Most common traveler year of birth is %i." %
               int(df['Birth Year'].mode()[0]))
     else:
-        print("\nNo birth year data available")
+        print("\nNo traveler birth year data available")
 
     print("\nThis took %.3f seconds." % (time.time() - start_time))
     print('-'*40)
@@ -291,6 +293,7 @@ def main():
         restart = choice('\nWould you like to restart?', ['yes', 'no'])
 
         if restart.lower() != 'yes':
+            print('Goodbye')
             break
 
 
