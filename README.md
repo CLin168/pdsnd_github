@@ -7,7 +7,9 @@ April 18th, 2021
 Python for Data Science Nanodegree Project 3 (Github)
 
 ### Description
-Python program using pandas and numpy to interactively analyse bike share riders data sets in CSV format. 
+Python program using pandas and numpy to interactively analyse bike share riders data sets in CSV format.
+This project exercises the git commands to fork, clone, update, commit, and push to remote 
+Github repo.
 
 ### Files used
 bikeshare.py
@@ -16,6 +18,6 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-This is a project repo folked from github.com/udecity/pdsnd_github by Udecity
+This is a project repo forked from github.com/udecity/pdsnd_github by Udecity
 
 
