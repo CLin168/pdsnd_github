@@ -12,9 +12,9 @@ This project exercises the git commands to fork, clone, update, commit, and push
 Github repo.
 
 ### Files used
-bikeshare.py
-chicago.csv
-new_york_city.csv
+bikeshare.py<Br>
+chicago.csv<Br>
+new_york_city.csv<Br>
 washington.csv
 
 ### Credits
